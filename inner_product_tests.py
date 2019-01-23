@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Tests for the inner product Tensorflow operation.
 
 .. moduleauthor:: David Stutz
 """
-
 import unittest
 import numpy as np
 import tensorflow as tf
@@ -125,4 +124,6 @@ class InnerProductOpTest(unittest.TestCase):
                   
                 
 if __name__ == '__main__':
+    #import pdb
+    #pdb.set_trace()
     unittest.main()
