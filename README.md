@@ -1,3 +1,33 @@
+This is practice code base to add new operator to Tensorflow based on http://davidstutz.de/implementing-tensorflow-operations-in-c-including-gradients/
+
+The Env:
+```
+mac OS: Mojave
+version: 10.14.2
+
+$ python --version
+Python 2.7.15
+
+$ pip show tensorflow
+Name: tensorflow
+Version: 1.12.0
+Summary: TensorFlow is an open source machine learning framework for everyone.
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: opensource@google.com
+License: Apache 2.0
+Location: /usr/local/lib/python2.7/site-packages
+Requires: astor, enum34, protobuf, keras-preprocessing, gast, six, wheel, absl-py, backports.weakref, termcolor, tensorboard, numpy, grpcio, mock, keras-applications
+Required-by:
+
+$ gcc -v
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+```
+
 # Example of Tensorflow Operation in C++
 
 This repository contains an example of a simple Tensorflow operation and its gradient both implemented in C++, as described in [this article](http://davidstutz.de/implementing-tensorflow-operations-in-c-including-gradients/).
